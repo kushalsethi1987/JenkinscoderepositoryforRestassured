@@ -36,7 +36,7 @@ public class TestSetUp {
             ConfigFactory.setProperty("environment", "qa");
         } else
         {
-            ConfigFactory.setProperty("environment", "dev");
+            ConfigFactory.setProperty("environment", "prod");
             /*System.out.println("From else multiple condition");*/
         }
         configproperties = ConfigFactory.create(ConfigProperties.class);

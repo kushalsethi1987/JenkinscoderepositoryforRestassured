@@ -14,7 +14,7 @@ import static io.restassured.RestAssured.*;
 
 public class TestClass {
     public static ConfigProperties configproperties;
-   @Test
+   @Test()
     public void testMethod() {
 
         ConfigFactory.setProperty("environment", "qa");

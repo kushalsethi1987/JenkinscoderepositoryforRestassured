@@ -6,6 +6,12 @@
                 class-name="com.restassuredframework.customlisteners.CustomListener"></listener>
     </listeners>
     <test thread-count="5" name="Test">
+        <groups>
+            <run>
+                <include name="Regression"/>
+                <include name="Sanity"/>
+            </run>
+        </groups>
         <classes>
 
             <class
